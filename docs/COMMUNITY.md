@@ -16,7 +16,7 @@ Open an [issue](https://github.com/hackelia-micrantha/veil-community/issues) for
 
 **Do not post** original private images, recoverable personal data, real encryption keys, customer files, credentials, unpublished vulnerabilities, internal architecture, protected source, model weights without redistribution rights, or third-party copyrighted content without permission.
 
-A well-written public report uses a synthetic fixture, a narrow problem statement, and only enough context to reproduce the behavior. If the issue might enable a security exploit or expose sensitive data, **do not open a public issue**: use the [Micrantha security policy](https://github.com/hackelia-micrantha/.github/blob/main/.github/SECURITY.md) and private vulnerability reporting where available.
+A well-written public report uses a synthetic fixture, a narrow problem statement, and only enough context to reproduce the behavior. If the issue might enable a security exploit or expose sensitive data, **do not open a public issue**: follow the [Veil Community private reporting instructions](../SECURITY.md).
 
 ## Expectations
 
@@ -26,4 +26,4 @@ Read the [organization contribution standard](https://github.com/hackelia-micran
 
 ## Licensing contributions
 
-The current repository is dedicated under [CC0 1.0 Universal](../LICENSE). Submit only material you have the rights to contribute on those terms. External papers, logos, and links remain subject to their original ownership. Contributions here do not affect the license or availability of Veil's private product source.
+The repository currently uses [CC0 1.0 Universal](../LICENSE), which does not require attribution for original content covered by the dedication. Submit only material you have the rights to contribute on those terms. External papers, logos, and links remain subject to their original ownership. Contributions here do not affect the license or availability of Veil's private product source.

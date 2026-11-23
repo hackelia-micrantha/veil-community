@@ -4,7 +4,7 @@
 
 Veil explores ways to transform images and text for creative presentation and selective disclosure. Its existing artistic image workflow makes photographs visibly different using a Voronoi-style treatment. Research is exploring whether an encrypted original can eventually travel with a transformed image—or be represented through abstract text—and be restored only by someone holding the necessary key.
 
-This is Veil's **public product, research, and community interface**. The implementation, unpublished engineering work, and release decisions remain outside this repository. Public discussion and an attractive demo do not imply that a feature is available, audited, or fit to protect sensitive data.
+This is Veil's **public product, research, and community interface**. The implementation, unpublished engineering work, and release decisions remain outside this repository. Public discussion or a prototype does not imply that a feature is available, audited, or fit to protect sensitive data.
 
 ## Capabilities and status
 
@@ -18,6 +18,8 @@ This is Veil's **public product, research, and community interface**. The implem
 | AI-assisted region selection | Proposed | Exploring opt-in, selective image treatments; no claim of a production-ready detector or privacy classifier. |
 | Hosted API and commercial tiers | Discovery | Free, voluntary supporter/beerware, and paid service concepts are being evaluated; no pricing, quotas, SLA, or paid access promise is made here. |
 
+**Availability:** This repository currently publishes documentation and community guidance only. It does not distribute a verified public demo, installable release, or supported API endpoint. The artistic image capability exists in Veil's private implementation; public access should not be inferred from its implemented status. See [Community participation](docs/COMMUNITY.md) to share a use case or request availability updates.
+
 **Important:** Visual distortion is not the same as redaction, anonymization, or confidentiality. Exact restoration requires more than recognizable visual similarity. Published encryption, privacy, and recovery claims will require separately qualified evidence.
 
 ## Explore
@@ -25,7 +27,7 @@ This is Veil's **public product, research, and community interface**. The implem
 - [Product and use cases](docs/PRODUCT.md) — the practical problems and boundaries Veil is investigating.
 - [Research directions and reading](docs/RESEARCH.md) — research questions, selected external publications, and evaluation criteria.
 - [Community participation](docs/COMMUNITY.md) — how to suggest a use case, contribute a reference, or report a reproducible product problem.
-- [Micrantha security reporting](https://github.com/hackelia-micrantha/.github/blob/main/.github/SECURITY.md) — report vulnerabilities privately, not through public issues.
+- [Private security reporting](SECURITY.md) — use the GitHub private report option if enabled, or the published Micrantha security contact; never post vulnerability details in public issues.
 - [Micrantha contribution guidelines](https://github.com/hackelia-micrantha/.github/blob/main/CONTRIBUTING.md) — shared code of contribution and review practice.
 
 ## Who this is for
@@ -44,6 +46,6 @@ A public suggestion does not become an accepted roadmap item until reviewed by t
 
 ## License and rights
 
-The repository's existing [CC0 1.0 Universal dedication](LICENSE) applies to material made available under that dedication here, to the extent its contributors have the necessary rights. Third-party publications remain governed by their own licenses and copyrights. **This does not license Veil's private implementation, patents, trademarks, branding, or future product releases.** A community contribution does not imply acceptance into the product.
+**The existing public-content license is [CC0 1.0 Universal](LICENSE), not CC BY 4.0.** CC0 allows reuse without an attribution requirement and its dedication is intended to be irrevocable. Material made available under CC0 here is subject to the rights its contributors actually hold. Third-party publications remain governed by their own licenses and copyrights. **This does not license Veil's private implementation, patents, trademarks, branding, or future product releases.** A community contribution does not imply acceptance into the product.
 
 Maintained by [Micrantha](https://github.com/hackelia-micrantha).
